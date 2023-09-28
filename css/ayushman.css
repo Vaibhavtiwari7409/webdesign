@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.topbar{
+    background-color: #410088;
+    color: white;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 89px;
+    align-items: center;
+    font-size: 17px;
+}
+.right{
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 158px;
+}
+.box{
+    border: 1px solid  #ffd957;
+    width: 25px;
+    height: 25px;
+    padding: 1px 1px 0px 3px;
+
+}
+.box i {
+    font-size: 13px;
+}
+
+.header{
+    width: 100%;
+    height: 106px;
+    background-color: #9239a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 108px;
+}
+.header .logoname{
+    margin-left: -173px;
+}
+.logoname h2{
+    font-size: 2vw;
+    margin: 0px 0 0 0;
+    color: #ffd957;
+    line-height: 17px;
+    font-weight: 700;
+}
+.logoname h1{
+    font-size: 2.3vw;
+    line-height: 35px;
+    font-weight: 700;
+    /* color: #410088; */
+    color: #ffffff;
+}
+
+.menu{
+    background-color: #f7b120;
+    width: 100%;
+    height: 50px;
+    padding: 13px 111px;
+    font-size: 19px;
+}
+.menu a{
+    text-decoration: none;
+    margin: 0px 12px;
+    color: white;
+}
+.menu a:hover{
+    color: black;
+}
+
+.marquee{
+    width: 100%;
+    height: 50px;
+    background: #4d4090 url(http://ayushmanup.in/assets/images/city_background.png) no-repeat top right;
+    padding: 0 100px;
+}
+.marquee marquee{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.box1{
+    display: flex;
+}
+.iconboxstyle2{
+    border: 3px solid;
+    width: 378px;
+    height: 80px;
+    display: flex;
+    border-color: #C2D9DE;
+    margin-top: 25px;
+    background: #f3f8f9;
+}
+.box1 h4{
+    color: red;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.box1 a{
+    font-size: 11px;
+    margin-left: 20px;
+    font-family: monospace;
+
+}
+
+.box2{
+    display: flex;
+    margin-top: -28px;
+    
+}
+.iconboxstyle1{
+    border: 3px solid;
+    width: 378px;
+    height: 80px;
+    display: flex;
+    border-color: #C2D9DE;
+    margin-top: 25px;
+    background: #f3f8f9;
+}
+.box2 h4{
+    color: red;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.box2 a{
+    font-size: 11px;
+    margin-left: 20px;
+    font-family: monospace;
+
+}
+.welcome h4{
+    color: #4d4090;
+    margin-top: 50px;
+    font-size: 1.3vw;
+}
+
+.welcome h3{
+    font-weight: 600;
+    color: #212121;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text p{
+    text-align: justify;
+    padding-right: 700px;
+    font-size: 17px;
+}
+.button button{
+    width: 125px;
+    height: 40px;
+    background: #4d4090;
+    border: none;
+    color: #fff;
+    margin-top: 14px;
+    font-size: 15px;
+}
+.cm{
+        width: 600px;
+        height: 180px;
+        float: right;
+        margin-top: -300px;
+        margin-right: 32px;
+        background: #e3edef;
+}
+.yogi{
+    text-align: center;
+    margin-top: 10px;
+}
+.yogi img{
+    width: 100px;
+    margin-left: -11px;
+}
+
+.yogi h2{
+       color: #0d0d5e;
+    font-family: math;
+}
+
+.yogi h4{
+    font-family: sans-serif;
+    color: #423d3d;
+
+}
+
+.cabinet{
+    width: 600px;
+    height: 180px;
+    float: right;
+    margin-right: 32px;
+    background: #e3edef;
+    margin-top: -110px;
+}
+
+.pathak{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pathak img{
+    width: 100px;
+    margin-left: -11px;
+}
+
+.pathak h2{
+       color: #0d0d5e;
+    font-family: math;
+    font-size: initial;
+}
+
+.pathak h4{
+    font-family: sans-serif;
+    color: #423d3d;
+    font-size: 12px;
+
+}
+
+.ps{
+    width: 293px;
+    height: 106px;
+    margin-top: 80px;
+    margin-right: 32px;
+    background: #e3edef;
+    margin-left: 517px;
+    display: flex;
+}
+.parth{    
+    width: 311px;
+}
+
+.parth img{
+    width: 80px;
+    margin: 10px 10px;
+}
+.parth h2{
+    font-size: 11px;
+    float: right;
+    margin-top: -95px;
+    margin-right: 5px;
+    color: #0d0d5e;
+}
+
+.parth h4{
+    float: right;
+    font-size: 13px;
+    margin-top: -54px;
+    margin-right: 6px;
+}
+
+
+
+
+.ceo{
+    width: 277px;
+    height: 105px;
+    margin-top: -107px;
+    margin-right: 31px;
+    background: #e3edef;
+    margin-left: 517px;
+    float: right;
+}
+
+
+.sangeeta img{
+    width: 80px;
+    margin: 10px 10px;
+}
+
+
+.sangeeta h2{
+    font-size: 11px;
+    margin: -92px 16px;
+    float: right;
+    color: #0d0d5e;
+}
+
+.sangeeta h4{
+    font-size: 10px;
+    margin: -65px 91px;
+    display: flex;
+    padding: 1px 3px;
+}
+
+
+.mark{
+    width: 100%;
+    height: 380px;
+    margin-top: 50px;
+}
+
+.mark1{
+    width: 33.333333%;
+    height: 360px;
+    float: left;
+    color: green;
+}
+
+.head{
+    width: 360px;
+    height: 50px;
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid black;
+    margin-left: 9px;
+    background: #4682b4;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.body{
+    width: 360px;
+    height: 300px;
+    margin-left: 9px;
+    background: #f5f5dc;
+    border-bottom: solid;
+    border-bottom-color: steelblue;
+}
+.txt{
+    color: #444444;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+
+.mar-btn{
+    background: #f39c12;
+    border-style: none;
+    padding: 5px 3px;
+}
+
+.img-div{
+    width: 1349px;
+    height: 200px;
+    display: flex;
+    margin: 26px -100px;
+    background: #4d4090 url(http://ayushmanup.in/assets/images/city_background.png) no-repeat top right;
+}
+
+.mouse img{
+    width: 100px;
+    height: 100px;
+    margin: 50px 100px;
+
+}
+.img-div h1{
+    margin: 83px 222px;
+    color: #f39c12;
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-btn{
+    background: #f39c12;
+    width: 200px;
+    height: 50px;
+    margin: 79px -44px;
+
+}
+
+.latest h2 {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: circular;
+    color: #212121;
+
+}
+
+.speaker {
+    background-color: #33537b;
+    margin-left: 100px;
+    padding-left: 9px;
+    padding-top: 5px;
+    margin-block: auto;
+    padding-right: 5px;
+    margin-top: 70px;
+}
+
+.Ayushman{
+    padding: 81px 75px;
+    line-height: 29px;
+}
+
+.Ayushman p {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #212121;
+}
+
+.our{
+    background: #f3f4ff;
+    display: flex;
+}
+
+.our-txt{
+    font-size: 22px;
+    padding: 100px 103px;
+    font-family: Josefin sans-serif;
+}
+
+.our-txt h2{
+    padding-bottom: 18px;
+}
+
+.vid{
+    padding: 71px 0px;
+
+}
+
+.footer{
+    background: #32363a;
+    color: #cecece;
+    display: flex;
+    padding: 76px 100px;
+    width: 1349px;
+    margin: 19px -100px;
+}
+
+
+.location {
+    font-size: 18px;
+    font-family: circular;
+    margin-bottom: 30px;
+
+}
+
+
+.location h2{
+    margin-bottom: 30px;
+    color: white;
+
+
+}
+
+.quick {
+    font-size: 18px;
+    font-family: circular;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.quick h2{
+    margin-bottom: 30px;
+    color: white;
+
+
+}
+
+.stay{
+    font-size: 18px;
+    font-family: circular;
+    margin-bottom: 3px;
+    margin-left: 80px;
+
+}
+
+.stay h2 {
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.txt-li li{
+    margin-left: -14px;
+    color: white;
+    font-weight: 300px;
+    font-family: system-ui;
+    list-style-type: none;
+    line-height: 36px;
+
+
+}
+
+txt-li2 li{
+    margin-left: -14px;
+    color: white;
+    font-weight: 300;
+    font-family: system-ui;
+    list-style-type: none;
+    line-height: 36px;
+
+}
+
+txt-li3 li{
+    margin-left: 60px;
+    color: white;
+    font-weight: 300;
+    font-family: system-ui;
+    list-style-type: none;
+    line-height: 31px;
+    font-size: 16px;
+
+
+
+}
+
+.last{
+    padding: 16px 133px;
+    color: #d3d3d3;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100px;
+}
+
+.flex{
+    display: flex;
+}
